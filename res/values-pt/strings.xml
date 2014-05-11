@@ -1,0 +1,46 @@
+<resources>
+    <string name="title">CONTATOS</string>
+    <string name="empty">-- Vazio --</string>
+    <string name="refresh">(De)Selecionar todo</string>
+    <string name="save">Exportar</string>
+    <string name="gsave">Exportar grupo</string>
+    <string name="delete">Apagar</string>
+    <string name="gdelete">Apagar grupo</string>
+    <string name="gimport">Importar de CSV</string>
+    <string name="settings">Configuração</string>
+    <string name="about">Com respeito à</string>
+    <string name="groups">Administrar grupos</string>
+    <string name="titlegroups">Grupos</string>
+    <string name="readDB">Esperar por favor...</string>
+    <string name="readallDB">Lendo TODOS os contatos</string>
+    <string name="impcsv">Lendo arquivo CSV:\n</string>
+    <string name="imported">Importado(s)\u0020</string>
+    <string name="importerror1">ERRO durante a importação de\u0020</string>
+    <string name="dgroups">Apagando grupo(s)</string>
+    <string name="contacts">\u0020contato(s)</string>
+    <string name="filechooser">Escolha o arquivo CSV</string>
+    <string name="textFilter">Escrever aquí para filtrar contatos</string>
+    <string name="string1">\u0020contato(s) lido(s).</string>
+    <string name="string2">Lendo ~</string>
+    <string name="string3">\u0020contato(s). Esperar por favor...</string>
+    <string name="string4">\u0020contato(s) APAGADO(S)...</string>
+    <string name="string5">CANCELADO</string>
+    <string name="string6">Confirmar APAGADO!!</string>
+    <string name="string7">\u0020contato(s) a apagar. Tem certeza?</string>
+    <string name="string8">SIM</string>
+    <string name="string9">NÃO</string>
+    <string name="string10">Apagando TODOS os contatos de\u0020</string>
+    <string name="string11">\u0020grupo(s). Tem certeza?</string>
+    <string name="string12">Apagando grupo @</string>
+    <string name="string13">Exportando arquivo CSV ao diretório:\n</string>
+    <string name="string14">Exportando\u0020</string>
+    <string name="string15">\u0020contato(s) ao arquivo:\n</string>
+    <string name="string16">\u0020grupo(s) ao arquivo:\n</string>
+    <string name="string17">Total de\u0020</string>
+    <string name="string18">\u0020contato(s) exportado(s).</string>
+    <string name="string19">Confirme a escolha</string>
+    <string name="string20">Quer importar?</string>
+	<string name="textAbout">
+	MiniContacts by Joanmi Bardera\nPode me enviar opiniões, consultas, etc. a mcontactsand@gmail.com\n\nO módulo de exportação CSV reusa o código opencsv\nhttp://sourceforge.net/projects/opencsv/\n\nCódigo sob Licencia Apache, Versão 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n
+	</string>
+    </resources>

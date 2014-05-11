@@ -1,0 +1,46 @@
+<resources>
+    <string name="title">CONTACTOS</string>
+    <string name="empty">-- Vacío --</string>
+    <string name="refresh">(De)Seleccionar todo</string>
+    <string name="save">Exportar</string>
+    <string name="gsave">Exportar grupo</string>
+    <string name="delete">Borrar</string>
+    <string name="gdelete">Borrar grupo</string>
+    <string name="gimport">Importar de CSV</string>
+    <string name="settings">Configuración</string>
+    <string name="about">Acerca de</string>
+    <string name="groups">Gestionar grupos</string>
+    <string name="titlegroups">Grupos</string>
+    <string name="readDB">Por favor espere...</string>
+    <string name="readallDB">Leyendo TODOS los contactos</string>
+    <string name="impcsv">Leyendo archivo CSV:\n</string>
+    <string name="imported">Importado(s)\u0020</string>
+    <string name="importerror1">ERROR durante la importación de\u0020</string>
+    <string name="dgroups">Borrando grupo(s)</string>
+    <string name="contacts">\u0020contacto(s)</string>
+    <string name="filechooser">Escoja el archivo CSV</string>
+    <string name="textFilter">Escriba aquí para filtrar contactos</string>
+    <string name="string1">\u0020contacto(s) leído(s).</string>
+    <string name="string2">Leyendo ~</string>
+    <string name="string3">\u0020contacto(s). Por favor espere...</string>
+    <string name="string4">\u0020contacto(s) BORRADO(S)...</string>
+    <string name="string5">CANCELADO</string>
+    <string name="string6">Confirmar BORRADO!!</string>
+    <string name="string7">\u0020contacto(s) a borrar. ¿Está seguro?</string>
+    <string name="string8">SÍ</string>
+    <string name="string9">NO</string>
+    <string name="string10">Borrando TODOS los contactos de\u0020</string>
+    <string name="string11">\u0020grupo(s). ¿Está seguro?</string>
+    <string name="string12">Borrando grupo @</string>
+    <string name="string13">Exportando archivo CSV al directorio:\n</string>
+    <string name="string14">Exportando\u0020</string>
+    <string name="string15">\u0020contacto(s) al archivo:\n</string>
+    <string name="string16">\u0020grupo(s) al archivo:\n</string>
+    <string name="string17">Total de\u0020</string>
+    <string name="string18">\u0020contacto(s) exportado(s).</string>
+    <string name="string19">Confirme la selección</string>
+    <string name="string20">Quiere importar?</string>
+	<string name="textAbout">
+	MiniContacts by Joanmi Bardera\nEnvíame tus opiniones, consultas, etc. a mcontactsand@gmail.com\n\nEl módulo de exportación CSV reusa el código opencsv\nhttp://sourceforge.net/projects/opencsv/\n\nCódigo bajo Licencia Apache, Versión 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n
+	</string>
+    </resources>

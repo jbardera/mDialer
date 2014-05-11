@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">mDialer</string>
+    <string name="title">CONTACTS</string>
+    <string name="empty">-- Empty --</string>
+    <string name="refresh">(Un)Select all</string>
+    <string name="save">Export</string>
+    <string name="gsave">Export group</string>
+    <string name="delete">Delete</string>
+    <string name="gdelete">Delete group</string>
+    <string name="gimport">Import from CSV</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="groups">Manage by groups</string>
+    <string name="titlegroups">Groups</string>
+    <string name="readDB">Please wait...</string>
+    <string name="readallDB">Reading ALL contacts</string>
+    <string name="impcsv">Reading CSV file:\n</string>
+    <string name="imported">Imported\u0020</string>
+    <string name="importerror1">ERROR importing\u0020</string>
+    <string name="contacts">\u0020contact(s)</string>
+    <string name="filechooser">Choose a CSV file</string>
+    <string name="dgroups">Deleting group(s)</string>
+    <string name="textFilter">Type to filter contacts</string>
+    <string name="string1">\u0020contact(s) read.</string>
+    <string name="string2">Reading ~</string>
+    <string name="string3">\u0020contact(s). Please wait...</string>
+    <string name="string4">\u0020contact(s) DELETED...</string>
+    <string name="string5">CANCELLED</string>
+    <string name="string6">Confirm DELETION!!</string>
+    <string name="string7">\u0020contact(s) to delete. Are you sure?</string>
+    <string name="string8">YES</string>
+    <string name="string9">NO</string>
+    <string name="string10">Deleting ALL contacts of\u0020</string>
+    <string name="string11">\u0020group(s). Are you sure?</string>
+    <string name="string12">Deleting group @</string>
+    <string name="string13">Exporting CSV files to directory:\n</string>
+    <string name="string14">Exporting\u0020</string>
+    <string name="string15">\u0020contact(s) to file:\n</string>
+    <string name="string16">\u0020group(s) to file:\n</string>
+    <string name="string17">Total of\u0020</string>
+    <string name="string18">\u0020contact(s) exported.</string>
+    <string name="string19">Confirm selection</string>
+    <string name="string20">Do you want to import?</string>
+    <string name="string21">aA &lt;&lt; zZ</string>
+    <string name="string22">01 &lt;&lt; 89</string>
+	<string name="textAbout">
+	MiniContacts by Joanmi Bardera\nSend your feedback to mcontactsand@gmail.com\n\nExport to CSV module uses code of opencsv\nhttp://sourceforge.net/projects/opencsv/\n\nSource code licensed under the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n
+	</string>
+    </resources>

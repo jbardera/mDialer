@@ -1,0 +1,46 @@
+<resources>
+    <string name="title">CONTACTES</string>
+    <string name="empty">-- Buit --</string>
+    <string name="refresh">(De)Seleccionar tot</string>
+    <string name="save">Exportar</string>
+    <string name="gsave">Exportar grup</string>
+    <string name="delete">Esborrar</string>
+    <string name="gdelete">Esborrar grup</string>
+    <string name="gimport">Importar de CSV</string>
+    <string name="settings">Configuració</string>
+    <string name="about">Referent a</string>
+    <string name="groups">Gestionar grups</string>
+    <string name="titlegroups">Grups</string>
+    <string name="readDB">Si us plau esperi...</string>
+    <string name="readallDB">Llegint TOTS els contactes</string>
+    <string name="impcsv">Llegint arxiu CSV:\n</string>
+    <string name="imported">Importat(s)\u0020</string>
+    <string name="contacts">\u0020contacte(s)</string>
+    <string name="filechooser">Esculli un arxiu CSV</string>
+    <string name="importerror1">ERROR en la importació de\u0020</string>
+    <string name="dgroups">Esborrant grup(s)</string>
+    <string name="textFilter">Escriu aquí per filtrar contactes</string>
+    <string name="string1">\u0020contacte(s) llegit(s).</string>
+    <string name="string2">Llegint ~</string>
+    <string name="string3">\u0020contacte(s). Si us plau esperi...</string>
+    <string name="string4">\u0020contacte(s) ESBORRAT(S)...</string>
+    <string name="string5">CANCEL·LAT</string>
+    <string name="string6">Confirmi ESBORRAMENT!!</string>
+    <string name="string7">\u0020contacte(s) a esborrar. Està segur?</string>
+    <string name="string8">SÍ</string>
+    <string name="string9">NO</string>
+    <string name="string10">Esborrant TOTS els contactes de\u0020</string>
+    <string name="string11">\u0020grup(s). Està segur?</string>
+    <string name="string12">Esborrant grup @</string>
+    <string name="string13">Exportant arxiu CSV al directori:\n</string>
+    <string name="string14">Exportant\u0020</string>
+    <string name="string15">\u0020contacte(s) a l\'arxiu:\n</string>
+    <string name="string16">\u0020grup(s) a l\'arxiu:\n</string>
+    <string name="string17">Total de\u0020</string>
+    <string name="string18">\u0020contacte(s) exportat(s).</string>
+    <string name="string19">Confirmi selecció</string>
+    <string name="string20">Vol importar l\'arxiu?</string>
+	<string name="textAbout">
+	MiniContacts by Joanmi Bardera\nEnvia\'m les teves opinions, consultes, etc. a mcontactsand@gmail.com\n\nEl mòdul d\'exportació CSV reusa el codi opencsv\nhttp://sourceforge.net/projects/opencsv/\n\nCodi sota Llicència Apache, Versió 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n
+	</string>
+    </resources>
