@@ -104,10 +104,8 @@ public class MainCustomAdapter extends BaseAdapter implements Filterable
 		        
 		        for ( DataHolder p : dataList) 
 		        {
-		            if (p.getName().toUpperCase().startsWith(constraint.toString().toUpperCase()))
-		            {
-		                nDataList.add(p);
-		            }
+		        	  if (p.getName().toUpperCase().startsWith(constraint.toString().toUpperCase()))
+			                nDataList.add(p);
 		        }
 		        results.values = nDataList;
 		        results.count = nDataList.size();

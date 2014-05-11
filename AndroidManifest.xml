@@ -35,18 +35,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.brapeba.mdialer.Groups"
-            android:label="@string/gdelete" 
-            android:parentActivityName="com.brapeba.mdialer.Main">
-            <!-- Parent activity meta-data to support API level 7+ -->
-        	<meta-data
-            	android:name="android.support.PARENT_ACTIVITY"
-            	android:value="com.brapeba.mdialer.Main" />
-            <intent-filter>
-                <action android:name="android.intent.action.GROUPDELETE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name="com.brapeba.mdialer.About"
             android:label="@string/about"
              android:parentActivityName="com.brapeba.mdialer.Main">
@@ -68,18 +56,6 @@
             	android:value="com.brapeba.mdialer.Main" />
             <intent-filter>
                 <action android:name="android.intent.action.SETTINGS" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.brapeba.mdialer.FileChooser"
-            android:label="@string/filechooser"
-             android:parentActivityName="com.brapeba.mdialer.Main">
-            <!-- Parent activity meta-data to support API level 7+ -->
-        	<meta-data
-            	android:name="android.support.PARENT_ACTIVITY"
-            	android:value="com.brapeba.mdialer.Main" />
-            <intent-filter>
-                <action android:name="android.intent.action.FILECHOOSER" />
             </intent-filter>
         </activity>
     </application>

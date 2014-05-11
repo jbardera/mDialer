@@ -8,12 +8,19 @@
     android:focusableInTouchMode="true"
     android:orientation="vertical" >
     
+    <EditText
+        android:id="@+id/editTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="@+string/textFilter"
+        android:maxLines="1" />
+
     <LinearLayout
         style="?android:attr/buttonBarStyle"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="#FF0099CC"
          >
          
         <Button

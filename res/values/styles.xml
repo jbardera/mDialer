@@ -15,18 +15,10 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-        <item name="android:textColor">@android:color/tertiary_text_dark</item>
-        <item name="android:background">@android:color/background_dark</item>
     </style>
 
     <style name="Button" parent="@android:style/Widget.Holo.Button.Borderless">
         <item name="android:textColor">@android:color/primary_text_light</item>
     </style>
     
-    <style name="Dialog" parent="@android:style/Widget.Holo.Button.Borderless">
-        <item name="android:textColor">@android:color/primary_text_light</item>
-        <item name="android:background">@android:color/background_dark</item>
-    </style>
-    
-
 </resources>

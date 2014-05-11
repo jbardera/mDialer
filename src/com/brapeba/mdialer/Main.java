@@ -117,9 +117,11 @@ public class Main extends Activity implements OnItemClickListener
 			// code below is for filterable -- not used because when filtering the position of each element displayed is different of selected
 			// therefore getCheckedItemPositions() does not work
 			
-			actionBar.setCustomView(R.layout.filteractionview);
-		    editText = (EditText) actionBar.getCustomView().findViewById(R.id.editTxt);
-		    actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM | ActionBar.DISPLAY_SHOW_HOME);
+			//actionBar.setCustomView(R.layout.filteractionview);
+		    //editText = (EditText) actionBar.getCustomView().findViewById(R.id.editTxt);
+		    //actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM | ActionBar.DISPLAY_SHOW_HOME);
+		    
+		    editText = (EditText) findViewById(R.id.editTxt);
 		    
 		    editText.addTextChangedListener(new TextWatcher() 
 		    {
@@ -129,11 +131,18 @@ public class Main extends Activity implements OnItemClickListener
 		    	
 		    	@Override public void onTextChanged(CharSequence s, int start, int before, int count) 
 		    	{
+		    		if (count < before) 
+					{
+						// We're deleting char so we need to reset the adapter data
+						adapter.resetData();
+					}
+		    		adapter.getFilter().filter(s.toString());
 		    	}
 
 		    	@Override public void afterTextChanged(Editable s) 
 		    	{
-	    			adapter.getFilter().filter(s.toString());
+		    		checked.clear();
+					listView.clearChoices();
 		    	}
 		    });
 		}
@@ -209,9 +218,11 @@ public class Main extends Activity implements OnItemClickListener
 				// code below is for filterable -- keep in mind that the position of each element displayed is different than those selected,
 				// therefore getCheckedItemPositions() does not work
 				
-				actionBar.setCustomView(R.layout.filteractionview);
-			    editText = (EditText) actionBar.getCustomView().findViewById(R.id.editTxt);
-			    actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM | ActionBar.DISPLAY_SHOW_HOME);
+				//actionBar.setCustomView(R.layout.filteractionview);
+			    //editText = (EditText) actionBar.getCustomView().findViewById(R.id.editTxt);
+			    //actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM | ActionBar.DISPLAY_SHOW_HOME);
+			    
+			    editText = (EditText) findViewById(R.id.editTxt);
 			    
 			    editText.addTextChangedListener(new TextWatcher() 
 			    {
@@ -221,11 +232,18 @@ public class Main extends Activity implements OnItemClickListener
 			    	
 			    	@Override public void onTextChanged(CharSequence s, int start, int before, int count) 
 			    	{
+			    		if (count < before) 
+						{
+							// We're deleting char so we need to reset the adapter data
+							adapter.resetData();
+						}
+			    		adapter.getFilter().filter(s.toString());
 			    	}
 
 			    	@Override public void afterTextChanged(Editable s) 
 			    	{
-		    			adapter.getFilter().filter(s.toString());
+			    		checked.clear();
+						listView.clearChoices();
 			    	}
 			    });
 			    
@@ -335,11 +353,9 @@ public class Main extends Activity implements OnItemClickListener
 	
 	@Override public boolean onOptionsItemSelected(MenuItem item)
 	{
-		int dC,i=0;
 		// same as using a normal menu
 		if (firstExecution) // do nothing until contacts loaded!
 		{
-			dC=listView.getCount();
 			switch(item.getItemId()) 
 			{
 				case R.id.item_about: 
